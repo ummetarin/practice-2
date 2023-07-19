@@ -117,7 +117,7 @@ font-size: 12px;
     margin-bottom: 70px;
 }
 .color{
-    background-image: linear-gradient(to bottom,rgb(228, 201, 223),rgb(244, 11, 240));
+    background-image: linear-gradient(to bottom,rgb(238, 9, 196),rgb(44, 44, 214));
     color: transparent;
     -webkit-background-clip: text;
     height: 100%;
