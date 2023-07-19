@@ -1,0 +1,229 @@
+.img1{
+    width: 55px;
+    height: 25px;
+    padding-top: 24px;
+}
+.name-of-1st{
+font-size: 27px;
+}
+.cheak-1st{
+   gap: 11px;;
+    display: flex;
+    padding-left: 200px;
+}
+.img2{
+height: 20px;
+width: 20px;
+padding-top: 16px;
+}
+.img3{
+height: 20px;
+width: 20px;
+padding-top: 16px;
+}
+.btn{
+    display: flex;
+    gap: 15px;
+    height: 40px;
+    width: 180px;
+    padding-bottom: 40px;
+    background-color: rgb(225, 221, 219);
+    border: none;
+    border-radius: 5px;
+    padding-left: 20px;
+
+
+}
+.btn-work :hover{
+color: brown;
+background-color: bisque;
+}
+.btn-work{
+   padding: 5px; 
+}
+.part-2{
+    display: flex;
+    gap: 20px;
+    color: rgb(71, 72, 73);
+}
+.part1-head{
+    display: flex;
+    gap: 300px;
+    margin-bottom: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+.img4{
+    height: 400px;
+    width: 400px;
+}
+.btn-2{
+ padding: 15px;
+ background-color: rgb(247, 91, 179);
+ border: none;
+ border-radius: 20px;
+ color: aliceblue;
+ font-size: 11px;
+ height: 40px;
+ width: 90px;
+}
+.btn-3{
+padding: 15px;
+background-color: rgb(15, 188, 198);
+border: none;
+border-radius: 20px;
+color: aliceblue;
+font-size: 11px;
+height: 40px;
+ width: 100px;
+
+}
+.bth-related{
+    display: flex;
+    gap: 10px;
+}
+.text-part2{
+    padding-left: 150px;
+ 
+}
+.part-main{
+    display: flex;
+    align-items: center;
+    background-color: rgb(237, 228, 234);
+}
+.img-core{
+    padding-left: 200px;
+}
+.text-for-list{
+    padding-left: 0px;
+}
+.btn-5{
+width: 120px;
+padding: 10px 0px;
+color: white;
+background-color: rgb(224, 68, 164);
+border: none;
+border-radius: 20px;
+font-size: 12px;
+}
+.img6{
+    width: 550px;
+    height: 300px;
+}
+.part-flex{
+    display: flex;
+    background-color: rgb(255, 236, 251);
+    padding-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 70px;
+}
+.color{
+    background-image: linear-gradient(to bottom,rgb(228, 201, 223),rgb(244, 11, 240));
+    color: transparent;
+    -webkit-background-clip: text;
+    height: 100%;
+}
+.img-fact{
+    height: 250px;
+    width: 200px;
+}
+.img-fact:hover{
+    
+}
+.game{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.text{
+    text-align: center;
+}
+.newimg1{
+ height: 400px;
+ width: 400px;
+}
+.newimg2{
+height: 220px;
+width: 190px;
+border: 2px solid rgb(236, 220, 220);
+position: relative;
+bottom: 190px;
+right: 90px;
+
+
+
+}
+.for-flex{
+    display: flex;
+    margin-top: 100px;
+    padding-left: 100px;
+}
+.div{
+    padding-top: 60px;
+}
+.icon{
+    height: 35px;
+    width: 35px;
+}
+.icon-for-flex{
+    display: flex;
+    gap: 10px;
+    padding: 5px 45px;
+    border-radius: 50px;
+    background-color: rgb(231, 232, 234);
+    border: none;
+}
+.icon-for-flex:hover{
+    border: 2px solid red;
+}
+.icon-fact{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    
+}
+.icon10{
+    height: 35px;
+    width: 35px;
+}
+.icon-icon{
+    display: flex;
+    gap: 10px;
+    padding: 5px 45px;
+    border-radius: 50px;
+    background-color: rgb(231, 232, 234);
+    border: none;
+}
+.icon-icon:hover{
+    border: 2px solid red;
+}
+.icony{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding-bottom: 150px;
+    
+}
+.icon-gap{
+  margin-bottom: 25px;
+}
+.cheak-1st1{
+   
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.last-2{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.last-3{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
