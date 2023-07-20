@@ -2,6 +2,13 @@
    .cheak-1st{
     flex-direction: column;
    }
+   .part1-head{
+    display: flex;
+    gap: 30px;
+    
+
+    flex-direction: column;
+   }
 
     .move{
         flex-direction: column;
@@ -12,6 +19,15 @@
        }
        .part-2{
         flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin-left: 45px;
+     
+       }
+       .colorf{
+        padding-right: 0px !important;
+        margin-right: 40px;
+        
        }
 }
 @media  screen and (max-width : 600px) {

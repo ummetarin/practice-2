@@ -11,6 +11,9 @@ font-size: 27px;
     display: flex;
     padding-left: 200px;
 }
+.part1-head{
+    display: flex;
+}
 .img2{
 height: 20px;
 width: 20px;
@@ -228,27 +231,22 @@ right: 90px;
     justify-content: center;
     gap: 60px;
 }
-.overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 0;
-    transition: opacity 0.4s ease-in-out;
-    background: black;
-    cursor: pointer;
+.container{
+    position:relative;
 }
-.content{
-position: absolute;
-top: 50%;
-right: 50%;
-transform: translate(-50%,-50%);
-color: blueviolet;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-text-align: center;
-}
-.container:hover .overlay{
-opacity: 0.8s;
+.game-overlay{
+    position:absolute;
+    top:35%;
+    left:43%;
+    display: none;
 
+}
+.game-overlay i{
+    width: 100px;
+}
+.container:hover .game-overlay{
+    display: block;
+}
+.container:hover{
+    filter:brightness(30%)
 }
