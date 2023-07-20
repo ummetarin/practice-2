@@ -4,7 +4,7 @@
    }
    .part1-head{
     display: flex;
-    gap: 30px;
+    gap: 0px;
     
 
     flex-direction: column;
@@ -21,8 +21,11 @@
         flex-direction: column;
         text-align: center;
         align-items: center;
-        margin-left: 45px;
+        margin-left: 60px;
      
+       }
+       .img1{
+        padding-right: 100px;
        }
        .colorf{
         padding-right: 0px !important;
@@ -44,6 +47,16 @@
     }
     .img-fact{
         padding-left: 150px;
-    }
     
+    }
+    .icon-fact{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .icony{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
 }
