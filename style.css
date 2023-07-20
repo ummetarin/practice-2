@@ -91,7 +91,7 @@ height: 40px;
     background-color: rgb(237, 228, 234);
 }
 .img-core{
-    padding-left: 200px;
+    padding-left: 50px;
 }
 .text-for-list{
     padding-left: 0px;
@@ -136,6 +136,7 @@ font-size: 12px;
 }
 .text{
     text-align: center;
+    color: rgb(117, 117, 121);
 }
 .newimg1{
  height: 400px;
@@ -215,15 +216,39 @@ right: 90px;
 .last{
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 35px;
 }
 .last-2{
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 30px;
 }
 .last-3{
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 60px;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background: black;
+    cursor: pointer;
+}
+.content{
+position: absolute;
+top: 50%;
+right: 50%;
+transform: translate(-50%,-50%);
+color: blueviolet;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+}
+.container:hover .overlay{
+opacity: 0.8s;
+
 }
